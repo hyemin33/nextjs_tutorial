@@ -1,2 +1,5 @@
-# nextjs_tutorial
-nextjs 공홈에 있는 chapter를 따라 공부합니다.
+## Next.js App Router Course - Starter
+
+This is the starter template for the Next.js App Router Course. It contains the starting code for the dashboard application.
+
+For more information, see the [course curriculum](https://nextjs.org/learn) on the Next.js Website.
