@@ -19,6 +19,10 @@ export default function Search({ placeholder }: { placeholder: string }) {
     // useSearchParams 추가, searchParams 만들어서, 아래 params에 담기
     const params = new URLSearchParams(searchParams);
 
+    // step 6
+    // 검색할때마다 pagae 1로 초기화 
+    params.set('page', '1');
+
     // step 3
     if (term) { // 검색어 있으면
       params.set('query', term); // 검색어로 params 변경 -> .set 노션체크!
